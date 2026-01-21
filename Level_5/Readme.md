@@ -1,3 +1,5 @@
+Github pages link:- https://kramasrisurya.github.io/to-do/
+
 What the project does? 
 This project is a functional web application designed to help users organize their daily tasks. It allows you to input a task, add it to a list, and visually manage your goals for the day by deleting items as they are completed.
 
