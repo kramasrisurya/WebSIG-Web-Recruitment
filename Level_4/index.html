@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Logic (Level 4)</title>
+    <style>
+
+        #color-box { width: 150px; height: 150px; border: 3px solid #333; }
+
+    </style>
+</head>
+<body>
+
+    <label>Switch</label>
+    <label class="switch">
+        <input type="checkbox" id="master-toggle">
+        <div class="slider"></div>
+    </label>
+    <p class="status-msg">Enable toggle to start the counter</p>
+
+    <hr style=" margin: 20px 20;">
+
+    <div class="controls">
+        <label>Set Max Value:</label>
+        <input type="number" id="max-input" value="25">
+        <hr>
+        <h2 id="counter-display">Count: 0</h2>
+        <div id="color-box"></div>
+
+        <button id="action-btn" disabled>Tap to Interact</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
